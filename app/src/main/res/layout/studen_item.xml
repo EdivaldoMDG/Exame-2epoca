@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/person1">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_nome2"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="2"></TextView>
+        <TextView
+            android:id="@+id/tv_numero2"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:padding="4dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/tv_pc2"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pc"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:padding="4dp"
+            ></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.preparacao_exame_2epoca">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Preparacao_exame_2epoca">
+        <activity android:name=".Desistiu">
+            android:label = "Desistiu"
+            android:parentActivityName="com.example.android.Exame">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Exame" />
+        </activity>
+        <activity android:name=".Faltou" >
+            android:label = "Faltou"
+            android:parentActivityName="com.example.android.Exame">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Exame" />
+        </activity>
+        <activity android:name=".StudentList" >
+            android:label = "Presentes"
+            android:parentActivityName="com.example.android.Exame">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Exame" />
+        </activity>
+        <activity android:name=".Novo">
+            android:label = "AddStudent"
+            android:parentActivityName="com.example.android.Exame">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Exame" />
+        </activity>
+        <activity android:name=".Exame" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
